@@ -16,11 +16,14 @@
 	border-width: 0px;
 }
 </style>
+
 </head>
 
-<body>
 
-<div id="tabs31" style="width: 812px; left: 2px; top: 153px">
+<body id="bg" style="z-index: 1; width: 876px; height: 910px; position: absolute; top: 0px; left: 0px">
+
+
+<div id="tabs31" style="width: 1639px; left: 2px; top: 153px">
 	<ul>
 	<li><a href="index.html"><span>Home</span></a></li>
 	<li><a href="Movie.html"><span>Apocalypse Now</span></a></li>
@@ -37,7 +40,8 @@
      
 <p><img alt="" height="97" src="cooltext277520891404559.png" width="650" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="managecart.html">
-<img alt="" height="59" src="../Pic/61437-200.png" width="58" class="auto-style3" /></a></p>
+<img alt="" class="auto-style1" height="81" src="Pic/61437-200.png" width="86" /></a></p>
+
      
 <p>&nbsp;</p>
      
@@ -45,7 +49,7 @@
 PG-13 | 1h 55min | Action, Drama, Thriller | 18 January 1991 (USA) </strong></p>
 <p class="auto-style2"><strong>Plot</strong></p>
 <div class="summary_text" googl="true" itemprop="description">
-	<p class="MsoNormal">U.S. Navy pilot Lt. Jake Grafton and his bombardier 
+	<p id="text">U.S. Navy pilot Lt. Jake Grafton and his bombardier 
 	buddy, Lt. Cmdr. Virgil Cole are two soldiers embedded in the Vietnam War 
 	growing frustrated by the military's constraints on their missions. Despite 
 	the best efforts of their commanding officer, Cmdr. Frank Camparelli, to 
@@ -54,7 +58,7 @@ PG-13 | 1h 55min | Action, Drama, Thriller | 18 January 1991 (USA) </strong></p>
 	court-martialed.<o:p></o:p></p>
 </div>
 <p class="auto-style2"><strong>Information</strong></p>
-<p>Flight of the Intruder is a 1991 war film co-written and directed by 
+<p id="text1">Flight of the Intruder is a 1991 war film co-written and directed by 
 John Milius, and starring Danny Glover, Willem Dafoe, and Brad Johnson. It is 
 based on the novel of the same name by former Grumman A-6 Intruder pilot 
 Stephen Coonts. The film received negative review upon release, and as of 2017 
@@ -64,3 +68,59 @@ is Milius&#39; final theatrical release as a director.</p>
 
 </html>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4aWLk36djRE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div id="options" style="z-index: 1; width: 812px; height: 26px; position: absolute; top: 2px; left: -36px">
+<div id="options" style="z-index: 1; width: 812px; height: 26px; position: absolute; top: 12px; left: 65px">
+<button onclick="myFunction()">Dark Theme</button>
+
+<script>
+function myFunction() {
+  document.getElementById("bg").style.backgroundColor = "#1F1F1F";
+    document.getElementById("bg").style.color = "#FFFFFF";
+
+}
+</script>
+<button onclick="myFunction2()">White Theme</button>
+
+<script>
+function myFunction2() {
+  document.getElementById("bg").style.backgroundColor = "#FFFFFF";
+    document.getElementById("bg").style.color = "#000000";
+
+}
+</script>
+
+<div id="textsize" style="z-index: 1; width: 812px; height: 26px; position: absolute; top: 30px; left: 3px">
+<button onclick="myFunction3()">Normal Size</button>
+
+<script>
+function myFunction3() {
+    document.getElementById("text").style.fontSize = "14pt";
+        document.getElementById("text1").style.fontSize = "14pt";
+
+
+}
+</script>
+
+<button onclick="myFunction4()">Medium Size</button>
+
+<script>
+function myFunction4() {
+    document.getElementById("text").style.fontSize = "16pt";
+    document.getElementById("text1").style.fontSize = "16pt";
+
+
+}
+</script>
+<button onclick="myFunction6()">Large Size</button>
+
+<script>
+function myFunction6() {
+    document.getElementById("text").style.fontSize = "18pt";
+    document.getElementById("text1").style.fontSize = "18pt";
+
+}
+</script>
+
+</div>
+

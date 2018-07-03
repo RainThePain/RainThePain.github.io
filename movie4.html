@@ -20,7 +20,9 @@
 
 <body>
 
-<div id="tabs31" style="width: 812px; left: 2px; top: 153px">
+<body id="bg" style="z-index: 1; width: 876px; height: 910px; position: absolute; top: 0px; left: 0px">
+
+<div id="tabs31" style="width: 1639px; left: 2px; top: 153px">
 	<ul>
 	<li><a href="index.html"><span>Home</span></a></li>
 	<li><a href="Movie.html"><span>Apocalypse Now</span></a></li>
@@ -37,21 +39,22 @@
      
 <p><img alt="" height="97" src="cooltext277520891404559.png" width="650" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="managecart.html">
-<img alt="" height="59" src="../Pic/61437-200.png" width="58" class="auto-style3" /></a></p>
+<img alt="" class="auto-style1" height="81" src="Pic/61437-200.png" width="86" /></a></p>
+
      
 <p>&nbsp;</p>
      
 <p><strong><span class="auto-style1">Lost Command (1966)</span><br />
 Approved | 2h 9min | Action, Drama, War | May 1966 (USA) </strong></p>
 <p class="auto-style2"><strong>Plot</strong></p>
-<p>After being freed from a Vietnamese war prison, French Lt. Col. Pierre 
+<p id="text">After being freed from a Vietnamese war prison, French Lt. Col. Pierre 
 Raspeguy is sent to help quell resistance forces in Algeria. With the help of 
 the Capt. Esclavier, who has grown weary of war, and Capt. Boisfeuras, who lives 
 for it, Raspeguy attempts to convert a rugged band of soldiers into a formidable 
 fighting unit, with the promise of marrying a beautiful countess if he's made 
 for a general.</p>
 <p class="auto-style2"><strong>Information</strong></p>
-<p>Lost Command is a 1966 war film starring Anthony Quinn, Alain Delon, George 
+<p id="text1">Lost Command is a 1966 war film starring Anthony Quinn, Alain Delon, George 
 Segal, Michèle Morgan, Maurice Ronet and Claudia Cardinale. The film, which was 
 directed by Mark Robson, was based on the best-selling 1960 novel The Centurions 
 by Jean Lartéguy. The film focuses on the story of French paratroopers battling 
@@ -61,3 +64,59 @@ in French Indochina and French Algeria.</p>
 
 </html>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uoFoyHHpw_c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div id="options" style="z-index: 1; width: 812px; height: 26px; position: absolute; top: 2px; left: -36px">
+<div id="options" style="z-index: 1; width: 812px; height: 26px; position: absolute; top: 12px; left: 65px">
+<button onclick="myFunction()">Dark Theme</button>
+
+<script>
+function myFunction() {
+  document.getElementById("bg").style.backgroundColor = "#1F1F1F";
+    document.getElementById("bg").style.color = "#FFFFFF";
+
+}
+</script>
+<button onclick="myFunction2()">White Theme</button>
+
+<script>
+function myFunction2() {
+  document.getElementById("bg").style.backgroundColor = "#FFFFFF";
+    document.getElementById("bg").style.color = "#000000";
+
+}
+</script>
+
+<div id="textsize" style="z-index: 1; width: 812px; height: 26px; position: absolute; top: 30px; left: 3px">
+<button onclick="myFunction3()">Normal Size</button>
+
+<script>
+function myFunction3() {
+    document.getElementById("text").style.fontSize = "14pt";
+        document.getElementById("text1").style.fontSize = "14pt";
+
+
+}
+</script>
+
+<button onclick="myFunction4()">Medium Size</button>
+
+<script>
+function myFunction4() {
+    document.getElementById("text").style.fontSize = "16pt";
+    document.getElementById("text1").style.fontSize = "16pt";
+
+
+}
+</script>
+<button onclick="myFunction6()">Large Size</button>
+
+<script>
+function myFunction6() {
+    document.getElementById("text").style.fontSize = "18pt";
+    document.getElementById("text1").style.fontSize = "18pt";
+
+}
+</script>
+
+</div>
+
